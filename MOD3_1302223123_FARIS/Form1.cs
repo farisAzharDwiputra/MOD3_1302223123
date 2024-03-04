@@ -27,8 +27,8 @@ namespace MOD3_1302223123_FARIS
 
         private void button1_Click(object sender, EventArgs e)
         {
-            tampung1 += "1";
-            outputLabel.Text += tampung1;
+            tampung1 = "1";
+            outputLabel.Text = outputLabel.Text + tampung1;
         }
 
         private void buttonPlus_Click(object sender, EventArgs e)
@@ -45,61 +45,61 @@ namespace MOD3_1302223123_FARIS
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            tampung2 += "2";
-            outputLabel.Text += tampung2;
+            tampung2 = "2";
+            outputLabel.Text = outputLabel.Text + tampung2;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            tampung3 += "3";
-            outputLabel.Text += tampung3;
+            tampung3 = "3";
+            outputLabel.Text = outputLabel.Text + tampung3;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            tampung4 += "4";
-            outputLabel.Text += tampung4;
+            tampung4 = "4";
+            outputLabel.Text = outputLabel.Text + tampung4;
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            tampung5 += "5";
-            outputLabel.Text += tampung5;
+            tampung5 = "5";
+            outputLabel.Text = outputLabel.Text + tampung5;
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            tampung6 += "6";
-            outputLabel.Text += tampung6;        
+            tampung6 = "6";
+            outputLabel.Text = outputLabel.Text + tampung6;        
         }   
 
         private void button7_Click(object sender, EventArgs e)
         {
-            tampung7 += "7";
-            outputLabel.Text += tampung7;
+            tampung7 = "7";
+            outputLabel.Text = outputLabel.Text + tampung7;
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            tampung8 += "8";
-            outputLabel.Text += tampung8;
+            tampung8 = "8";
+            outputLabel.Text = outputLabel.Text + tampung8;
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            tampung9 += "9";
-           outputLabel.Text += tampung9;
+            tampung9 = "9";
+           outputLabel.Text = outputLabel.Text + tampung9;
         }
 
         private void button0_Click(object sender, EventArgs e)
         {
-            tampung0 += "0";
-            outputLabel.Text += tampung0;
+            tampung0 = "0";
+            outputLabel.Text = outputLabel.Text + tampung0;
         }
     }
 }

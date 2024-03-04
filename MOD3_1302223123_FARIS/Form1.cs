@@ -39,7 +39,8 @@ namespace MOD3_1302223123_FARIS
 
         private void buttonSama_Click(object sender, EventArgs e)
         {
-        
+            memori2 = Convert.ToInt32(outputLabel.Text);
+            outputLabel.Text = Convert.ToString(memori1 + memori2) ;
         }
 
         private void Form1_Load(object sender, EventArgs e)
